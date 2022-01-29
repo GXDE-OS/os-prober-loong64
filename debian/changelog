@@ -22,6 +22,9 @@ os-prober (1.80) UNRELEASED; urgency=medium
   [ rakslice ]
   * detect alpine initramfs files
 
+  [ Luke Shumaker ]
+  * Fall back to looking for /usr/lib/os-release.
+
  -- Samuel Thibault <sthibault@debian.org>  Sun, 18 Jul 2021 17:53:48 +0200
 
 os-prober (1.79) unstable; urgency=medium
