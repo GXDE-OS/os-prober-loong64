@@ -1,7 +1,8 @@
 os-prober (1.80) UNRELEASED; urgency=medium
 
   [ Samuel Thibault ]
-  * control: Enable mount dependency only where it is available (Linux).
+  * control: Enable mount dependency only on linux, enable freebsd-utils on
+    kfreebsd instead. (Closes: #1006590)
 
   [ General Chaos ]
   * Handle multiple initrd paths, as used in some distros
