@@ -1,4 +1,6 @@
-os-prober (1.80) UNRELEASED; urgency=medium
+os-prober (1.80) unstable; urgency=medium
+
+  * Team upload
 
   [ Samuel Thibault ]
   * control: Enable mount dependency only on linux, enable freebsd-utils on
@@ -33,7 +35,7 @@ os-prober (1.80) UNRELEASED; urgency=medium
     + Build-Depends: Drop versioned constraint on dpkg-dev.
     + os-prober-udeb: Drop versioned constraint on anna in Depends.
 
- -- Samuel Thibault <sthibault@debian.org>  Sun, 18 Jul 2021 17:53:48 +0200
+ -- Holger Wansing <hwansing@mailbox.org>  Thu, 26 May 2022 23:16:53 +0200
 
 os-prober (1.79) unstable; urgency=medium
 
