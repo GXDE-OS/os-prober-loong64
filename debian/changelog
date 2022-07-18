@@ -1,9 +1,11 @@
-os-prober (1.81) UNRELEASED; urgency=medium
+os-prober (1.81) unstable; urgency=medium
+
+  * Team upload
 
   [ Pascal Hambourg ]
   * Add Windows 11 detection.
 
- -- Holger Wansing <hwansing@mailbox.org>  Sun, 10 Jul 2022 14:03:00 +0200
+ -- Holger Wansing <hwansing@mailbox.org>  Mon, 18 Jul 2022 14:32:39 +0200
 
 os-prober (1.80) unstable; urgency=medium
 
