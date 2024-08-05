@@ -1,3 +1,12 @@
+os-prober (1.82+1) unstable; urgency=medium
+
+  * loong64: filter out non-EFI-stub (old-world) kernels.
+  * loong64: chainload old-world GRUB2 when non-EFI-stub kernels exist in a
+    particular system rootfs, making it possible to boot from a new-world
+    GRUB2 bootloader.
+
+ -- Miao Wang <shankerwangmiao@gmail.com>  Tue, 06 Aug 2024 02:12:00 +0800
+
 os-prober (1.82) unstable; urgency=medium
 
   * Team upload
